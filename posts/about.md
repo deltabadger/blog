@@ -1,5 +1,5 @@
 ---
-title: "Why"
+title: "About Deltabadger"
 date: 2020-11-11
 description: "As somebody born in communist Poland, I was not fortunate enough to get basic wealth-building knowledge from home."
 published: true

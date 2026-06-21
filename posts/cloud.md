@@ -9,7 +9,7 @@ published: true
 
 ## Open-Source
 
-The app is now [open-source](https://deltabadger.org). Yes, after building it for the last six years together with many great developers, I decided to release the code. The original trigger was MiCA regulations that [effectively killed the SaaS](https://janklosowski.substack.com/p/eu-killed-my-company-i-open-source) model for the product. Offering dollar-cost averaging as a service means "participating in users' transactions" which requires an expensive CASP license, KYC, and more. So, the app is now free.
+The app is now [open-source](https://deltabadger.org). Yes, after building it for the last six years together with many great developers, I decided to release the code. The original trigger was MiCA regulations that [effectively killed the SaaS](https://sovereignoptimist.com/p/eu-killed-my-company-i-open-source) model for the product. Offering dollar-cost averaging as a service means "participating in users' transactions" which requires an expensive CASP license, KYC, and more. So, the app is now free.
 
 I'd be lying saying I'm not enjoying the open-source part of it. The only reason why it didn't happen earlier was my lack of resources, or a good idea how to do it without sabotaging the business. Open-source is not only close to my heart, but also to the Bitcoin mission that inspired the project.
 
@@ -31,7 +31,7 @@ That said, the app itself opens the year with multiple new features: six new exc
 
 ## The Future
 
-When I started, I saw Deltabadger as a [voice against broken monetary policy](/blog/about), and essentially an easily accessible way to build your hedge against it. Six years later, while this is still real, I see something bigger. There is a gap between those who still think AI is a "chat" and those who start to experience the disruption. I can't unsee what I saw [doing alone the work of a 7-10 person team](https://janklosowski.substack.com/p/create-opinionated-or-disappear).
+When I started, I saw Deltabadger as a [voice against broken monetary policy](/blog/about), and essentially an easily accessible way to build your hedge against it. Six years later, while this is still real, I see something bigger. There is a gap between those who still think AI is a "chat" and those who start to experience the disruption. I can't unsee what I saw [doing alone the work of a 7-10 person team](https://sovereignoptimist.com/p/create-opinionated-or-disappear).
 
 This may sound radical to you now, but we're likely hitting the end of capitalism as we know it. I expect all traditional white-collar jobs to be mostly gone in the next 5-10 years, with blue-collar lagging only a bit. AI and robots will automate all repetitive tasks. At the beginning of 2026, that already seems unavoidable. It will likely lead to a completely new system that some people will describe using positive language like "age of abundance" and "sci-fi utopia," while others may call it "communism."
 

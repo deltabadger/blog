@@ -1,5 +1,5 @@
 ---
-title: The GENIUS of stablecoins
+title: The GENIUS of Stablecoins
 subtitle: 'From smart contract "killer app" to GENIUS Portfolio'
 description: 'The GENIUS Act cements stablecoins as Web3''s killer app and the new "digital dollar". We explore the geography of stablecoins and the GENIUS Portfolio, a thesis for investing in the underlying blockchain infrastructure.'
 thumbnail: genius-of-stablecoins

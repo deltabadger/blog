@@ -23,7 +23,7 @@ pickers:
         label: Lump sum
   period:
     type: daterange
-    min: "2016-01"
+    min: "2013-01"
     max: now
     prompt: Period
 ---
@@ -37,6 +37,8 @@ What if you had invested in just the biggest Nasdaq companies — how many would
 :::picker{period}
 
 :::chart{indexes="nasdaq-100:$mode:$n" symbols="QQQ:US:$mode" names="Nasdaq Top $n,QQQ" title="$mode.label — Nasdaq Top $n vs QQQ" start="$period.start" end="$period.end"}
+
+<!-- Index history begins 2012-12-31 (first reconstructed rebalance snapshot). -->
 
 Drag the slider. Fewer names means more concentration — watch what it does to the curve. Switch
 between contributing every week and putting the whole amount in at the start of the period; both

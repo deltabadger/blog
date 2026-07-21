@@ -36,7 +36,7 @@ What if you had invested in just the biggest Nasdaq companies — how many would
 
 :::picker{period}
 
-:::chart{indexes="nasdaq-100:$mode:$n" symbols="QQQ:US:$mode" names="Nasdaq Top $n,QQQ" title="$mode.label — Nasdaq Top $n vs QQQ" start="$period.start" end="$period.end"}
+:::chart{indexes="nasdaq-100:$mode:$n" symbols="QQQ:US:$mode" names="Nasdaq Top $n,QQQ" start="$period.start" end="$period.end"}
 
 <!-- Index history begins 2012-12-31 (first reconstructed rebalance snapshot). -->
 

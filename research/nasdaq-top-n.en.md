@@ -1,6 +1,6 @@
 ---
 title: How Many Stocks Do You Actually Need?
-subtitle: DCA into the top-N Nasdaq companies
+subtitle: Investing in the top-N Nasdaq companies
 description: Interactive backtest — drag the slider and watch concentration beat diversification (or not).
 date: 2026-07-21
 published: false
@@ -12,12 +12,32 @@ pickers:
     step: 1
     default: 5
     prompt: Number of stocks in your index
+  mode:
+    type: switch
+    prompt: Investment style
+    options:
+      - id: dca
+        label: Weekly DCA
+        default: true
+      - id: price
+        label: Lump sum
+  period:
+    type: daterange
+    min: "2016-01"
+    max: now
+    prompt: Period
 ---
 
-What if you had DCA'd into just the biggest Nasdaq companies — how many would have been enough?
+What if you had invested in just the biggest Nasdaq companies — how many would have been enough?
 
 :::picker{n}
 
-:::chart{indexes="nasdaq-100:dca:$n" symbols="QQQ:US:dca" title="Weekly DCA — Nasdaq Top $n vs QQQ" start="2016-01-01"}
+:::picker{mode}
 
-Drag the slider. Fewer names means more concentration — watch what it does to the curve.
+:::picker{period}
+
+:::chart{indexes="nasdaq-100:$mode:$n" symbols="QQQ:US:$mode" names="Nasdaq Top $n,QQQ" title="$mode.label — Nasdaq Top $n vs QQQ" start="$period.start" end="$period.end"}
+
+Drag the slider. Fewer names means more concentration — watch what it does to the curve. Switch
+between contributing every week and putting the whole amount in at the start of the period; both
+views use total-return prices and ignore fees and taxes.

@@ -4,7 +4,7 @@ subtitle: Strengths and Weaknesses of the New Market Play on Bitcoin
 description: "Treasury companies are a completely new market play. We explore their strengths and weaknesses, and the four new Strategy tickers."
 thumbnail: treasury-companies
 date: 2025-08-18
-published: false
+published: true
 ---
 **MicroStrategy (now Strategy)** made its first Bitcoin purchase on August 11, 2020, when it announced it had purchased 21,454 bitcoins for $250 million. This purchase made it the first publicly-traded company to buy Bitcoin as part of its capital allocation strategy, marking a pivotal moment in corporate adoption of Bitcoin, but it also started something else: the rise of treasury companies.<a class="link-source-tile" href="https://www.businesswire.com/news/home/20200811005331/en/MicroStrategy-Adopts-Bitcoin-as-Primary-Treasury-Reserve-Asset">businesswire.com</a>
 

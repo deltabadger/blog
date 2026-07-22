@@ -4,7 +4,7 @@ subtitle: Stärken und Schwächen der neuen Marktwette auf Bitcoin
 description: "Treasury-Unternehmen sind eine völlig neue Marktwette. Wir untersuchen ihre Stärken und Schwächen sowie die vier neuen Strategy-Ticker."
 thumbnail: treasury-companies
 date: 2025-08-18
-published: false
+published: true
 ---
 **MicroStrategy (heute Strategy)** tätigte am 11. August 2020 seinen ersten Bitcoin-Kauf und gab bekannt, 21.454 Bitcoin für 250 Millionen Dollar erworben zu haben. Damit wurde das Unternehmen zum ersten börsennotierten Konzern, der Bitcoin als Teil seiner Kapitalallokationsstrategie kaufte — ein Wendepunkt für die Unternehmensadaption von Bitcoin. Doch es setzte noch etwas anderes in Gang: den Aufstieg der Treasury-Unternehmen.<a class="link-source-tile" href="https://www.businesswire.com/news/home/20200811005331/en/MicroStrategy-Adopts-Bitcoin-as-Primary-Treasury-Reserve-Asset">businesswire.com</a>
 

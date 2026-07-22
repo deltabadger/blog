@@ -4,7 +4,7 @@ subtitle: Fortalezas y debilidades de la nueva jugada de mercado sobre Bitcoin
 description: "Las empresas tesorería son una jugada de mercado completamente nueva. Exploramos sus fortalezas y debilidades, y los cuatro nuevos tickers de Strategy."
 thumbnail: treasury-companies
 date: 2025-08-18
-published: false
+published: true
 ---
 **MicroStrategy (ahora Strategy)** realizó su primera compra de Bitcoin el 11 de agosto de 2020, cuando anunció que había adquirido 21.454 bitcoins por 250 millones de dólares. Esta compra la convirtió en la primera empresa cotizada en bolsa en comprar Bitcoin como parte de su estrategia de asignación de capital, marcando un momento decisivo en la adopción corporativa de Bitcoin, pero también dio comienzo a otra cosa: el auge de las empresas tesorería.<a class="link-source-tile" href="https://www.businesswire.com/news/home/20200811005331/en/MicroStrategy-Adopts-Bitcoin-as-Primary-Treasury-Reserve-Asset">businesswire.com</a>
 

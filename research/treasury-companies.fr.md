@@ -4,7 +4,7 @@ subtitle: Forces et faiblesses du nouveau pari de marché sur le Bitcoin
 description: "Les sociétés de trésorerie constituent un pari de marché entièrement nouveau. Nous explorons leurs forces et leurs faiblesses, ainsi que les quatre nouveaux tickers de Strategy."
 thumbnail: treasury-companies
 date: 2025-08-18
-published: false
+published: true
 ---
 **MicroStrategy (désormais Strategy)** a réalisé son premier achat de Bitcoin le 11 août 2020, en annonçant l'acquisition de 21 454 bitcoins pour 250 millions de dollars. Cet achat en a fait la première société cotée en bourse à acheter du Bitcoin dans le cadre de sa stratégie d'allocation du capital, marquant un tournant décisif dans l'adoption du Bitcoin par les entreprises, mais il a aussi lancé autre chose : l'essor des sociétés de trésorerie.<a class="link-source-tile" href="https://www.businesswire.com/news/home/20200811005331/en/MicroStrategy-Adopts-Bitcoin-as-Primary-Treasury-Reserve-Asset">businesswire.com</a>
 

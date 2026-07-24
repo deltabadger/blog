@@ -13,13 +13,13 @@ pickers:
         label: Nasdaq-100
         etf: QQQ
         short: Nasdaq
-        from: "1999-04"
+        from: "1996-12"
         default: true
       - id: sp-500
         label: S&P 500
         etf: SPY
         short: S&P
-        from: "2012-01"
+        from: "1996-12"
   n:
     type: slider
     min: 1
@@ -47,7 +47,7 @@ pickers:
         label: Equal
   period:
     type: daterange
-    min: "1999-10"
+    min: "1996-12"
     max: now
     scope: index
   tview:
@@ -74,7 +74,7 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::chart{indexes="$index:$mode:$n:$w" symbols="$index.etf:US:$mode" names="$index.short-$n,$index.etf" start="$period.start" end="$period.end" opt.compact="true"}
 
-<!-- Reconstructed history: nasdaq-100 from 1999-09 (annual rebalances to 2002, quarterly after), sp-500 from 2011-12; the chart clamps to the shared range. -->
+<!-- Picker floor is 1996-12. Total-return reconstruction (the DCA math, include_dividends) only reaches 1995-12 for sp-500 mcap; nasdaq-100 (both weightings) and sp-500 equal floor at 1999-09-30, so their pre-2000 cells dash. Split-adjusted price-only data reaches 1996 across the board, but the returns here use total return. -->
 
 :::picker{tview}
 

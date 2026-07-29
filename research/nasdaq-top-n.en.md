@@ -4,7 +4,7 @@ subtitle: Investing in the top-N Nasdaq or S&P 500 companies
 description: Interactive backtest — drag the slider and watch concentration beat diversification (or not).
 thumbnail: research002
 date: 2026-07-21
-published: true
+published: false
 pickers:
   index:
     type: switch

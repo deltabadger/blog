@@ -26,7 +26,6 @@ Im Juni 2025 machte X (ehemals Twitter) Polymarket zu seinem offiziellen Prognos
 
 Wie sind wir also hierher gekommen?
 
-<!-- PAYWALL -->
 
 ## Was sind Prognosemärkte?
 
@@ -399,4 +398,3 @@ Das ist **ein überzeugendes Argument für das Polygon-Netzwerk** – während P
 
 Wichtige Entwicklungen, die es zu beobachten gilt: regulatorische Änderungen, die eine Rückkehr in die USA erlauben könnten, die enger werdende Integration mit X und der KI Grok sowie mögliche Ankündigungen eines Token-Launches. Prognosemärkte werden Teil der Mainstream-Infrastruktur zur Informationsgewinnung, und Polymarket ist bestens positioniert, um diesen Wandel anzuführen.
 
-<!-- /PAYWALL -->

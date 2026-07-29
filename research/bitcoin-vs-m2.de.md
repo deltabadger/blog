@@ -15,7 +15,6 @@ In diesem Artikel:
 * bewerten wir die vielbeachtete Idee des *12-Wochen-Vorlaufs*,
 * nutzen wir KI und öffentlich verfügbare Daten für eine 12-Monats-Kursprognose für Bitcoin.
 
-<!-- PAYWALL -->
 
 ## Den M2-Zusammenhang verstehen
 Die Geldmenge M2 misst die gesamte in der Wirtschaft verfügbare Geldmenge. Dazu zählen Bargeld, Girokonten, Sparkonten und andere leicht zugängliche Mittel. Wenn man M2 der acht größten Volkswirtschaften (USA, China, Europa, Großbritannien, Japan, Kanada, Russland und Australien) zusammenrechnet, ergibt sich ein umfassendes Bild der globalen Geldmenge.
@@ -248,4 +247,3 @@ Aus praktischer Sicht kommt es auf Folgendes an:
 
 Die M2-Bitcoin-Korrelation ist nicht perfekt, aber sie bietet einen nützlichen Rahmen, um das Makroumfeld von Bitcoin zu verstehen – kombiniert mit On-Chain-Kennzahlen und traditioneller Marktanalyse.
 
-<!-- /PAYWALL -->

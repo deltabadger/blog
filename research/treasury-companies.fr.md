@@ -12,7 +12,6 @@ Les analystes et les investisseurs restent perplexes, et pour cause : ce type d'
 
 Si le géant de Michael Saylor détient encore près de 65 % des bitcoins d'entreprise, [bitcointreasuries.net](https://bitcointreasuries.net) recense 168 sociétés dans 29 pays.
 
-<!-- PAYWALL -->
 
 <figure class="article__figure">
 <img class="has-shadow" src="/research/top-100-public-companies.avif" alt="Sociétés de trésorerie Bitcoin">
@@ -231,4 +230,3 @@ Les actifs en preuve d'enjeu (Proof-of-Stake) comme Ethereum et Solana offrent e
 
 Les sociétés de trésorerie constituent un pari de marché entièrement nouveau. Le passé ne prédit jamais totalement l'avenir, mais dans ce cas précis, nous manquons tout simplement de données historiques pour modéliser un tel avenir. C'est un pari de marché sur l'hyperbitcoinisation, accessible aux investisseurs en bourse et aux institutions. N'oubliez pas que, même si vous croyez fermement à la thèse de Saylor, la première option à envisager est de détenir directement du Bitcoin. Les sociétés de trésorerie peuvent néanmoins être une option intéressante pour étendre votre exposition au Bitcoin là où c'était auparavant impossible (comptes de retraite), ou pour profiter de la stabilité des tickers à revenu fixe.
 
-<!-- /PAYWALL -->

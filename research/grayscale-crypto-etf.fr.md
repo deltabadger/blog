@@ -17,7 +17,6 @@ Malheureusement, comme pour les autres ETF américains, les investisseurs de l'U
 
 Ce qui retient l'attention, ce n'est pas seulement la taille, mais la composition :
 
-<!-- PAYWALL -->
 
 ## De l'Index Universe au CoinDesk 5
 
@@ -196,4 +195,3 @@ Le plus grand atout des indices, c'est qu'ils assurent une gestion naturelle du 
 
 *Quel est votre avis sur ces évolutions ? Investiriez-vous dans le CD5, le CD20, ou vous en tiendriez-vous simplement à Bitcoin ? ETF ou portefeuille d'indices personnalisé en auto-conservation ?*
 
-<!-- /PAYWALL -->

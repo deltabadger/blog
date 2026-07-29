@@ -16,7 +16,6 @@ The numbers are insane:
 
 * In 6 years, stablecoins grew **from $6 billion to $270 billion—a 45x increase**. The entire stablecoin market is now larger than the GDP of Finland.
 
-<!-- PAYWALL -->
 
 * Tether ($98 billion) and Circle ($22 billion) combined hold $120 billion in US Treasury securities, making them the 18th largest holder of American government debt—ahead of Belgium, Taiwan, and most sovereign nations. <a class="link-source-tile" href="https://tether.io/news/tether-hits-13-billion-profits-for-2024-and-all-time-highs-in-u-s-treasury-holdings-usdt-circulation-and-reserve-buffer-in-q4-2024-attestation">tether.io</a>
 
@@ -231,4 +230,3 @@ Supply-based allocation is a trade based on fundamentals—potentially telling a
 While TRON may be in question for many, Ethereum—the first smart contract platform—remains the leader of decentralized finance. However, if it changes, following publicly available metrics and rebalancing portfolio every 3 months allows us to keep allocation relevant.
 
 
-<!-- /PAYWALL -->

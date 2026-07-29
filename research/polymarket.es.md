@@ -26,7 +26,6 @@ En junio de 2025, X (antes Twitter) nombró a Polymarket su socio oficial de mer
 
 Entonces, ¿cómo hemos llegado hasta aquí?
 
-<!-- PAYWALL -->
 
 ## ¿Qué son los mercados de predicción?
 
@@ -399,4 +398,3 @@ Esto construye **un argumento convincente a favor de la red Polygon**: a medida 
 
 Desarrollos clave que vigilar: cambios regulatorios que podrían permitir el regreso a EE. UU., la integración cada vez más estrecha con X y la IA Grok, y posibles anuncios de lanzamiento de un token. Los mercados de predicción se están convirtiendo en parte de la infraestructura de descubrimiento de información del gran público, y Polymarket está bien posicionado para liderar esta transformación.
 
-<!-- /PAYWALL -->

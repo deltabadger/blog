@@ -11,7 +11,6 @@ A month after social streams celebrated Ethereum's 10th birthday, it approaches 
 
 It's a good moment to look closer at the state of the second-biggest cryptocurrency.
 
-<!-- PAYWALL -->
 
 ## The DeFi Infrastructure
 
@@ -286,4 +285,3 @@ We're devoted to bring this type of allocation automated on the platform, but in
 
 At the beginning of the second decade, nothing seems to endanger Ethereum's place as the second-biggest cryptocurrency. While it took a different ideological and practical route than Bitcoin, it's clear that this gap represents real market needs and use cases that will not go away. While Bitcoin dominance remains strong, Ethereum's dominance among "altcoins" is equally persistent, and Layer 2 blockchains keep finding their use cases, from cheaper stablecoin transfers to the explosion of prediction markets.
 
-<!-- /PAYWALL -->

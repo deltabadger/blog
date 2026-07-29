@@ -26,7 +26,6 @@ En juin 2025, X (anciennement Twitter) a désigné Polymarket comme son partenai
 
 Alors, comment en est-on arrivé là ?
 
-<!-- PAYWALL -->
 
 ## Que sont les marchés de prédiction ?
 
@@ -399,4 +398,3 @@ Cela plaide **fortement en faveur du réseau Polygon** – à mesure que Polymar
 
 Les développements clés à surveiller : les évolutions réglementaires susceptibles d'autoriser un retour aux États-Unis, l'intégration de plus en plus étroite avec X et l'IA Grok, et d'éventuelles annonces de lancement de jeton. Les marchés de prédiction s'imposent peu à peu comme un pan de l'infrastructure grand public de découverte de l'information, et Polymarket est en position de mener cette transformation.
 
-<!-- /PAYWALL -->

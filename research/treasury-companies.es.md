@@ -12,7 +12,6 @@ Los analistas y los inversores siguen desconcertados, y con razón: este tipo de
 
 Aunque el gigante de Michael Saylor todavía posee casi el 65 % de los bitcoins corporativos, [bitcointreasuries.net](https://bitcointreasuries.net) enumera 168 empresas de 29 países.
 
-<!-- PAYWALL -->
 
 <figure class="article__figure">
 <img class="has-shadow" src="/research/top-100-public-companies.avif" alt="Empresas tesorería de Bitcoin">
@@ -231,4 +230,3 @@ Los activos de prueba de participación (Proof-of-Stake), como Ethereum y Solana
 
 Las empresas tesorería son una jugada de mercado completamente nueva. El pasado nunca predice del todo el futuro, pero en este caso sencillamente carecemos de datos históricos para modelar un futuro así. Es una apuesta de mercado sobre la hiperbitcoinización, accesible para inversores en bolsa e instituciones. Recuerda que, aunque creas firmemente en la tesis de Saylor, lo primero que hay que plantearse es tener Bitcoin directamente. No obstante, las empresas tesorería pueden ser una opción interesante para ampliar tu exposición a Bitcoin en lugares donde antes era imposible (cuentas de jubilación), o para beneficiarte de la estabilidad de los tickers de renta fija.
 
-<!-- /PAYWALL -->

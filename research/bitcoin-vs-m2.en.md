@@ -15,7 +15,6 @@ In this article:
 * evaluate the hot *12-week lead* idea,
 * use AI and public data to make a 12-month Bitcoin price prediction.
 
-<!-- PAYWALL -->
 
 ## Understanding the M2 Connection
 M2 money supply measures the total amount of money available in the economy. It includes cash, checking accounts, savings accounts, and other readily accessible funds. When aggregating M2 from the eight largest economies (US, China, Europe, UK, Japan, Canada, Russia, and Australia), we get a comprehensive view of global money supply.
@@ -248,4 +247,3 @@ From a practical perspective, here's what matters:
 
 The M2-Bitcoin correlation isn't perfect, but it provides a useful framework for understanding Bitcoin's macro environment when combined with on-chain metrics and traditional market analysis.
 
-<!-- /PAYWALL -->

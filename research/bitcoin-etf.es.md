@@ -23,7 +23,6 @@ De hecho, hay tantos que el inversor de a pie puede acabar hecho un lío:
 
 Vamos a verlo.
 
-<!-- PAYWALL -->
 
 ## ¿Por qué un ETF?
 
@@ -353,4 +352,3 @@ La [teoría de la cartera radical](/research/radical-portfolio-theory) de Jeff P
 
 Sin embargo, si [guardas una parte importante de tu Bitcoin de forma segura en un monedero hardware](https://deltabadger.com/blog/coldcard-vs-trezor-vs-jade-vs-bitbox-bitcoin-only-wallet/), añadir un ETF a tu cartera puede aportar una flexibilidad útil para el rebalanceo, además de ventajas fiscales a través de las cuentas de jubilación.
 
-<!-- /PAYWALL -->

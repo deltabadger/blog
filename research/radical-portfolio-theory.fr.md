@@ -14,7 +14,6 @@ Le postulat technique sous-jacent est que, par le jeu des taux d'intérêt, ces 
 
 Ce n'est plus vrai.
 
-<!-- PAYWALL -->
 
 Sur les marchés de l'après-COVID, cette corrélation s'est inversée, passant du négatif au positif :
 
@@ -187,4 +186,3 @@ Cela dit, le cadre « radical » apporte à la fois d'excellentes explications e
 
 Aussi commodes soient-ils, ils font partie du statu quo contre lequel vous pourriez vouloir vous diversifier.
 
-<!-- /PAYWALL -->

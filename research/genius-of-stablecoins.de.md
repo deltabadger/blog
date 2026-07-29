@@ -16,7 +16,6 @@ Die Zahlen sind wahnwitzig:
 
 * In 6 Jahren sind Stablecoins **von 6 Milliarden auf 270 Milliarden Dollar gewachsen – eine Verfünfundvierzigfachung**. Der gesamte Stablecoin-Markt ist inzwischen größer als das BIP Finnlands.
 
-<!-- PAYWALL -->
 
 * Tether (98 Milliarden Dollar) und Circle (22 Milliarden Dollar) halten zusammen 120 Milliarden Dollar in US-Staatsanleihen und sind damit der 18.-größte Gläubiger amerikanischer Staatsschulden – noch vor Belgien, Taiwan und den meisten Nationalstaaten. <a class="link-source-tile" href="https://tether.io/news/tether-hits-13-billion-profits-for-2024-and-all-time-highs-in-u-s-treasury-holdings-usdt-circulation-and-reserve-buffer-in-q4-2024-attestation">tether.io</a>
 
@@ -231,4 +230,3 @@ Eine Allokation nach dem Angebot ist ein Trade auf Basis der Fundamentaldaten �
 Während TRON für viele fraglich sein mag, bleibt Ethereum – die erste Smart-Contract-Plattform – der Anführer der dezentralen Finanzwelt. Sollte sich das jedoch ändern, erlaubt es uns, den öffentlich verfügbaren Kennzahlen zu folgen und das Portfolio alle 3 Monate neu auszubalancieren, um die Allokation relevant zu halten.
 
 
-<!-- /PAYWALL -->

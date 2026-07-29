@@ -14,7 +14,6 @@ Die technische Grundannahme lautet: Über den Mechanismus der Zinssätze sind be
 
 Das stimmt nicht mehr.
 
-<!-- PAYWALL -->
 
 Im Markt nach der COVID-Krise hat sich diese Korrelation von negativ zu positiv gedreht:
 
@@ -187,4 +186,3 @@ Alles in allem liefert das „radikale" Modell sowohl überzeugende Erklärungen
 
 So praktisch sie auch sind: Sie sind Teil des Status quo, gegen den zu diversifizieren sich lohnen könnte.
 
-<!-- /PAYWALL -->

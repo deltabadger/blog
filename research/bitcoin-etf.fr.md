@@ -23,7 +23,6 @@ En réalité, il y en a tellement qu'un investisseur ordinaire peut vite s'y per
 
 Entrons dans le vif du sujet.
 
-<!-- PAYWALL -->
 
 ## Pourquoi un ETF ?
 
@@ -353,4 +352,3 @@ La [Radical Portfolio Theory](/research/radical-portfolio-theory) de Jeff Park m
 
 Cependant, si vous [conservez en sécurité une part importante de vos bitcoins sur un portefeuille matériel](https://deltabadger.com/blog/coldcard-vs-trezor-vs-jade-vs-bitbox-bitcoin-only-wallet/), ajouter un ETF à votre portefeuille peut apporter une souplesse utile pour le rééquilibrage ainsi que des avantages fiscaux via les comptes de retraite.
 
-<!-- /PAYWALL -->

@@ -15,7 +15,6 @@ En este artículo:
 * evaluaremos la popular idea del *adelanto de 12 semanas*,
 * usaremos la IA y datos públicos para hacer una predicción del precio de Bitcoin a 12 meses.
 
-<!-- PAYWALL -->
 
 ## Cómo entender la conexión con la M2
 La oferta monetaria M2 mide la cantidad total de dinero disponible en la economía. Incluye el efectivo, las cuentas corrientes, las cuentas de ahorro y otros fondos de fácil acceso. Al agregar la M2 de las ocho mayores economías (EE. UU., China, Europa, Reino Unido, Japón, Canadá, Rusia y Australia), obtenemos una visión completa de la oferta monetaria mundial.
@@ -248,4 +247,3 @@ Desde un punto de vista práctico, esto es lo que importa:
 
 La correlación entre la M2 y Bitcoin no es perfecta, pero ofrece un marco útil para entender el entorno macroeconómico de Bitcoin cuando se combina con métricas on-chain y el análisis de mercado tradicional.
 
-<!-- /PAYWALL -->

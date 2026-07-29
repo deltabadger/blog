@@ -14,7 +14,6 @@ El supuesto técnico subyacente es que, a través de la mecánica de los tipos d
 
 Esto ya no es cierto.
 
-<!-- PAYWALL -->
 
 En el mercado posterior a la COVID, esta correlación pasó de negativa a positiva:
 
@@ -187,4 +186,3 @@ Dicho esto, el marco "radical" ofrece a la vez grandes explicaciones y estrategi
 
 Por muy cómodos que sean, forman parte del statu quo frente al que quizá quieras diversificar.
 
-<!-- /PAYWALL -->

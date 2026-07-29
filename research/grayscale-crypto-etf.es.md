@@ -17,7 +17,6 @@ Por desgracia, como ocurre con otros ETF estadounidenses, los inversores de la U
 
 Lo que llama la atención no es solo el tamaño, sino la composición:
 
-<!-- PAYWALL -->
 
 ## Del Index Universe al CoinDesk 5
 
@@ -196,4 +195,3 @@ La mayor ventaja de los índices es que proporcionan una gestión del riesgo nat
 
 *¿Qué opinas de estos avances? ¿Invertirías en el CD5, el CD20 o te quedarías simplemente con Bitcoin? ¿ETF o una cartera de índice personalizada en autocustodia?*
 
-<!-- /PAYWALL -->

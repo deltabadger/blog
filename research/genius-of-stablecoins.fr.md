@@ -16,7 +16,6 @@ Les chiffres sont hallucinants :
 
 * En 6 ans, les stablecoins sont passés **de 6 milliards à 270 milliards de dollars, soit une multiplication par 45**. L'ensemble du marché des stablecoins est désormais plus grand que le PIB de la Finlande.
 
-<!-- PAYWALL -->
 
 * Tether (98 milliards de dollars) et Circle (22 milliards de dollars) détiennent ensemble 120 milliards de dollars de bons du Trésor américain, ce qui en fait le 18e plus gros détenteur de la dette publique américaine — devant la Belgique, Taïwan et la plupart des États souverains. <a class="link-source-tile" href="https://tether.io/news/tether-hits-13-billion-profits-for-2024-and-all-time-highs-in-u-s-treasury-holdings-usdt-circulation-and-reserve-buffer-in-q4-2024-attestation">tether.io</a>
 
@@ -231,4 +230,3 @@ L'allocation fondée sur l'offre est un pari sur les fondamentaux — susceptibl
 Si TRON peut faire débat pour beaucoup, Ethereum — la première plateforme de smart contracts — reste le leader de la finance décentralisée. Toutefois, si cela venait à changer, le suivi de métriques publiquement accessibles et le rééquilibrage du portefeuille tous les 3 mois nous permettent de maintenir une allocation pertinente.
 
 
-<!-- /PAYWALL -->

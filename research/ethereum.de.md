@@ -11,7 +11,6 @@ Einen Monat nachdem die sozialen Feeds Ethereums 10. Geburtstag gefeiert haben, 
 
 Ein guter Moment, um den Zustand der zweitgrößten Kryptowährung genauer unter die Lupe zu nehmen.
 
-<!-- PAYWALL -->
 
 ## Die DeFi-Infrastruktur
 
@@ -286,4 +285,3 @@ Wir haben es uns zum Ziel gesetzt, diese Art der Allokation automatisiert auf de
 
 Zu Beginn des zweiten Jahrzehnts scheint nichts Ethereums Position als zweitgrößte Kryptowährung zu gefährden. Auch wenn es einen anderen ideologischen und praktischen Weg als Bitcoin eingeschlagen hat, ist klar, dass diese Kluft echte Marktbedürfnisse und Anwendungsfälle abbildet, die nicht verschwinden werden. Während Bitcoins Dominanz stark bleibt, ist Ethereums Dominanz unter den „Altcoins“ ebenso beständig, und Layer-2-Blockchains finden weiterhin ihre Anwendungsfälle – von günstigeren Stablecoin-Transfers bis zur Explosion der Prognosemärkte.
 
-<!-- /PAYWALL -->

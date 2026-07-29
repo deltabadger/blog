@@ -13,7 +13,6 @@ Los primeros fondos indexados solían tener una ponderación equitativa. La cont
 
 Al principio, los críticos veían su escaso crecimiento como prueba de que los estadounidenses nunca se conformarían con rentabilidades «medias». Pero entonces llegó el mercado alcista de 1982 y ocurrió algo notable. A medida que las acciones se disparaban, el sencillo fondo indexado de Bogle de repente dejó de parecer una idea absurda: seguía el ritmo de la subida del mercado mientras los gestores activos tropezaban intentando batirlo.
 
-<!-- PAYWALL -->
 
 >*No busques la aguja en el pajar. ¡Compra directamente el pajar!*
 >
@@ -153,4 +152,3 @@ La inversión indexada es un camino para toda la vida.
 
 Si tienes una orientación a largo plazo y esa visión te entusiasma, asegúrate el [acceso de por vida a todas las herramientas sin costes adicionales convirtiéndote en uno de los 1000 Legendary Badgers](../../upgrade).
 
-<!-- /PAYWALL -->

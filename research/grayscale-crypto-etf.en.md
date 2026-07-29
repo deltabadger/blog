@@ -17,7 +17,6 @@ Unfortunately, as with other American ETFs, investors from the EU will have limi
 
 What captures attention isn't just the size, but the composition:
 
-<!-- PAYWALL -->
 
 ## From Index Universe to CoinDesk 5
 
@@ -196,4 +195,3 @@ Indices' biggest advantage is that they provide natural risk management—failed
 
 *What's your take on these developments? Would you invest in CD5, CD20, or just stick to Bitcoin? ETF or self-custodied custom index portfolio?*
 
-<!-- /PAYWALL -->

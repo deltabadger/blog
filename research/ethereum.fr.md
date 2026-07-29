@@ -11,7 +11,6 @@ Un mois après que les réseaux sociaux ont célébré le dixième anniversaire 
 
 Le moment est bien choisi pour examiner de plus près l'état de la deuxième cryptomonnaie mondiale.
 
-<!-- PAYWALL -->
 
 ## L'infrastructure DeFi
 
@@ -286,4 +285,3 @@ Nous avons à cœur de proposer ce type d'allocation de manière automatisée su
 
 Au début de sa deuxième décennie, rien ne semble menacer la place d'Ethereum en tant que deuxième cryptomonnaie mondiale. Bien qu'il ait emprunté une voie idéologique et pratique différente de celle de Bitcoin, il est clair que cet écart traduit de véritables besoins de marché et cas d'usage qui ne disparaîtront pas. Si la dominance de Bitcoin demeure solide, celle d'Ethereum parmi les « altcoins » est tout aussi tenace, et les blockchains Layer 2 continuent de trouver leurs cas d'usage, des transferts de stablecoins moins coûteux à l'explosion des marchés de prédiction.
 
-<!-- /PAYWALL -->

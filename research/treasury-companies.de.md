@@ -12,7 +12,6 @@ Analysten und Anleger sind nach wie vor verunsichert — und das aus gutem Grund
 
 Zwar hält der Gigant von Michael Saylor noch immer fast 65 % der von Unternehmen gehaltenen Bitcoin, doch [bitcointreasuries.net](https://bitcointreasuries.net) listet bereits 168 Unternehmen aus 29 Ländern.
 
-<!-- PAYWALL -->
 
 <figure class="article__figure">
 <img class="has-shadow" src="/research/top-100-public-companies.avif" alt="Bitcoin-Treasury-Unternehmen">
@@ -231,4 +230,3 @@ Proof-of-Stake-Assets wie Ethereum und Solana bieten theoretisch einen erheblich
 
 Treasury-Unternehmen sind eine völlig neue Marktwette. Die Vergangenheit sagt die Zukunft nie vollständig voraus, doch in diesem Fall fehlen uns schlicht die historischen Daten, um eine solche Zukunft zu modellieren. Es ist eine Marktwette auf die Hyperbitcoinisierung, zugänglich für Aktieninvestoren und Institutionen. Denken Sie daran: Selbst wenn Sie fest an die Saylor-These glauben, sollten Sie zuallererst prüfen, Bitcoin direkt zu halten. Treasury-Unternehmen können jedoch eine interessante Option sein, um Ihr Bitcoin-Exposure an Orten auszuweiten, an denen das bislang nicht möglich war (Altersvorsorgekonten), oder um von der Stabilität der festverzinslichen Ticker zu profitieren.
 
-<!-- /PAYWALL -->

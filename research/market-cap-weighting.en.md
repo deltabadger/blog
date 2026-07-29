@@ -13,7 +13,6 @@ The first index funds were often equally weighted. Jack Bogle's groundbreaking c
 
 Critics initially saw its meager growth as proof that Americans would never settle for "average" returns. But then the 1982 bull market arrived, and something remarkable happened. As stocks soared, Bogle's simple index fund suddenly wasn't looking foolish anymore—it was keeping pace with the market's climb while active managers stumbled trying to beat it.
 
-<!-- PAYWALL -->
 
 >*Don't look for the needle in the haystack. Just buy the haystack!*
 >
@@ -153,4 +152,3 @@ Index investing is a path for a lifetime.
 
 If you're long-term oriented and that vision sounds exciting, cement your [lifetime access to all the tools with no extra costs by becoming one of the 1,000 Legendary Badgers](../../upgrade).
 
-<!-- /PAYWALL -->

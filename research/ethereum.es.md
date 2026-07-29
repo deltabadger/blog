@@ -11,7 +11,6 @@ Un mes después de que las redes sociales celebraran el décimo aniversario de E
 
 Es un buen momento para examinar de cerca el estado de la segunda mayor criptomoneda.
 
-<!-- PAYWALL -->
 
 ## La infraestructura DeFi
 
@@ -286,4 +285,3 @@ Estamos comprometidos con llevar este tipo de asignación automatizada a la plat
 
 Al comienzo de la segunda década, nada parece amenazar el lugar de Ethereum como la segunda mayor criptomoneda. Aunque tomó un camino ideológico y práctico distinto al de Bitcoin, está claro que esa distancia responde a necesidades de mercado y casos de uso reales que no van a desaparecer. Mientras que la dominancia de Bitcoin sigue siendo fuerte, la dominancia de Ethereum entre las «altcoins» es igual de persistente, y las blockchains Layer 2 siguen encontrando sus casos de uso, desde transferencias de stablecoins más baratas hasta la explosión de los mercados de predicción.
 
-<!-- /PAYWALL -->

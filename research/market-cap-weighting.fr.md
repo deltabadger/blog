@@ -13,7 +13,6 @@ Les premiers fonds indiciels étaient souvent à pondération égale. La contrib
 
 Les critiques virent d'abord dans sa croissance famélique la preuve que les Américains ne se contenteraient jamais de rendements « moyens ». Mais le marché haussier de 1982 arriva, et il se produisit quelque chose de remarquable. À mesure que les actions s'envolaient, le simple fonds indiciel de Bogle cessa soudain de paraître ridicule : il suivait l'ascension du marché tandis que les gérants actifs trébuchaient en tentant de le battre.
 
-<!-- PAYWALL -->
 
 >*Ne cherchez pas l'aiguille dans la botte de foin. Achetez simplement la botte de foin !*
 >
@@ -153,4 +152,3 @@ L'investissement indiciel est une voie pour toute une vie.
 
 Si vous êtes orienté long terme et que cette vision vous enthousiasme, scellez votre [accès à vie à tous les outils sans coûts supplémentaires en devenant l'un des 1 000 Legendary Badgers](../../upgrade).
 
-<!-- /PAYWALL -->

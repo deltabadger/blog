@@ -23,7 +23,6 @@ In fact, there are so many of them that regular investor can be confused:
 
 Let's dive in.
 
-<!-- PAYWALL -->
 
 ## Why ETF?
 
@@ -353,4 +352,3 @@ Jeff Park's [Radical Portfolio Theory](/research/radical-portfolio-theory) highl
 
 However, if you [keep a significant portion of your Bitcoin safely on a hardware wallet](https://deltabadger.com/blog/coldcard-vs-trezor-vs-jade-vs-bitbox-bitcoin-only-wallet/), adding an ETF to your portfolio can provide useful flexibility for rebalancing and tax advantages through retirement accounts.
 
-<!-- /PAYWALL -->

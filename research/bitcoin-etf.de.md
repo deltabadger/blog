@@ -23,7 +23,6 @@ Tatsächlich gibt es so viele davon, dass ein normaler Anleger schnell den Über
 
 Tauchen wir ein.
 
-<!-- PAYWALL -->
 
 ## Warum ein ETF?
 
@@ -353,4 +352,3 @@ Jeff Parks [Radical Portfolio Theory](/research/radical-portfolio-theory) verwei
 
 Wenn Sie jedoch [einen erheblichen Teil Ihrer Bitcoin sicher auf einer Hardware-Wallet verwahren](https://deltabadger.com/blog/coldcard-vs-trezor-vs-jade-vs-bitbox-bitcoin-only-wallet/), kann ein ETF in Ihrem Portfolio nützliche Flexibilität für das Rebalancing sowie Steuervorteile über Altersvorsorgekonten bieten.
 
-<!-- /PAYWALL -->

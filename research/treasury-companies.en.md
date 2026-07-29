@@ -12,7 +12,6 @@ Analysts and investors are still confused, and for good reason: this type of bus
 
 While Michael Saylor's giant still holds almost 65% of corporate bitcoins, [bitcointreasuries.net](https://bitcointreasuries.net) lists 168 companies from 29 countries.
 
-<!-- PAYWALL -->
 
 <figure class="article__figure">
 <img class="has-shadow" src="/research/top-100-public-companies.avif" alt="Bitcoin Treasury Companies">
@@ -231,4 +230,3 @@ Proof-of-Stake assets like Ethereum and Solana theoretically offer a significant
 
 Treasury companies are a completely new market play. The past never fully predicts the future, but in this case we simply lack historical data to model such a future. It's a market bet on hyperbitcoinization, accessible for stock investors and institutions. Remember that even if you strongly believe in the Saylor thesis, the first thing to look at is holding Bitcoin directly. However, treasury companies can be an interesting option to extend your Bitcoin exposure in places where it was previously impossible (retirement accounts), or to benefit from the stability of the fixed income tickers.
 
-<!-- /PAYWALL -->

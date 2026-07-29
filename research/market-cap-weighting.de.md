@@ -13,7 +13,6 @@ Die ersten Indexfonds waren häufig gleichgewichtet. Jack Bogles bahnbrechender 
 
 Kritiker deuteten das magere Wachstum zunächst als Beweis dafür, dass sich Amerikaner niemals mit „durchschnittlichen“ Renditen zufriedengeben würden. Doch dann kam der Bullenmarkt von 1982, und etwas Bemerkenswertes geschah. Als die Aktienkurse in die Höhe schossen, wirkte Bogles schlichter Indexfonds plötzlich gar nicht mehr töricht – er hielt mit dem Anstieg des Marktes Schritt, während aktive Manager beim Versuch, ihn zu schlagen, ins Straucheln gerieten.
 
-<!-- PAYWALL -->
 
 >*Suchen Sie nicht die Nadel im Heuhaufen. Kaufen Sie einfach den ganzen Heuhaufen!*
 >
@@ -153,4 +152,3 @@ Index-Investing ist ein Weg für ein ganzes Leben.
 
 Wenn Sie langfristig denken und diese Vision spannend klingt, sichern Sie sich [lebenslangen Zugang zu allen Tools ohne Zusatzkosten, indem Sie einer der 1.000 Legendary Badgers werden](../../upgrade).
 
-<!-- /PAYWALL -->

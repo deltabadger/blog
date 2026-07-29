@@ -17,7 +17,6 @@ Wie bei anderen US-amerikanischen ETFs haben Anleger aus der EU leider nur einge
 
 Bemerkenswert ist dabei nicht nur die Größe, sondern die Zusammensetzung:
 
-<!-- PAYWALL -->
 
 ## Vom Index Universe zu CoinDesk 5
 
@@ -196,4 +195,3 @@ Der größte Vorteil von Indizes ist ihr natürliches Risikomanagement: Gescheit
 
 *Wie sehen Sie diese Entwicklungen? Würden Sie in CD5, CD20 investieren oder einfach bei Bitcoin bleiben? ETF oder ein selbstverwahrtes, individuell zusammengestelltes Index-Portfolio?*
 
-<!-- /PAYWALL -->

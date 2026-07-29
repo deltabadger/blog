@@ -26,7 +26,6 @@ In June 2025, X (formerly Twitter) named Polymarket as its official prediction m
 
 So how did we get here?
 
-<!-- PAYWALL -->
 
 ## What are prediction markets?
 
@@ -399,4 +398,3 @@ This makes **a compelling case for the Polygon network** – as Polymarket scale
 
 Key developments to watch: regulatory changes that could allow U.S. re-entry, the tightening integration with X and Grok AI, and potential token launch announcements. Prediction markets are becoming part of mainstream information discovery infrastructure, and Polymarket is positioned to lead this transformation.
 
-<!-- /PAYWALL -->

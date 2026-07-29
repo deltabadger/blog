@@ -15,7 +15,6 @@ Dans cet article :
 * nous évaluerons la fameuse idée de l'*avance de 12 semaines*,
 * nous nous appuierons sur l'IA et des données publiques pour établir une prédiction du prix du Bitcoin à 12 mois.
 
-<!-- PAYWALL -->
 
 ## Comprendre le lien avec M2
 La masse monétaire M2 mesure le montant total de monnaie disponible dans l'économie. Elle englobe les liquidités, les comptes courants, les comptes d'épargne et d'autres fonds facilement mobilisables. En agrégeant le M2 des huit plus grandes économies (États-Unis, Chine, Europe, Royaume-Uni, Japon, Canada, Russie et Australie), on obtient une vision globale de la masse monétaire mondiale.
@@ -248,4 +247,3 @@ D'un point de vue pratique, voici ce qui compte :
 
 La corrélation M2-Bitcoin n'est pas parfaite, mais elle fournit un cadre utile pour comprendre l'environnement macroéconomique du Bitcoin lorsqu'elle est combinée à des métriques on-chain et à l'analyse de marché traditionnelle.
 
-<!-- /PAYWALL -->

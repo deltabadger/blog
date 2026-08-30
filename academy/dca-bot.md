@@ -8,7 +8,7 @@ published: true
 
 Deltabadger makes it simple, and goes beyond.
 
-Both the single-asset bot and [two-asset bot](/academy/rebalanced-dca) share most of the options, so let's start with the single-asset setup:
+Both the single-asset bot and the [portfolio bot](/academy/rebalanced-dca) share most of the options, so let's start with the single-asset setup:
 
 ## Let's start
 

@@ -1,6 +1,6 @@
 ---
 title: "Rebalanced DCA"
-description: "Combine DCA with portfolio rebalancing to automatically maintain your target allocations while avoiding tax events. Perfect for crypto pairs like BTC-ETH."
+description: "Combine DCA with portfolio rebalancing to automatically maintain your target allocations while avoiding tax events. Works with any basket, from BTC-ETH to a full portfolio."
 published: true
 ---
 
@@ -10,7 +10,7 @@ Meet **Rebalanced DCA** — our *special sauce*.
 
 The bot achieves rebalancing using only BUY orders; you never sell, so there are **no tax events** while still targeting your desired allocation.
 
-With rebalanced DCA, you diversify in a systematic way. The bot buys a bit more of the currency that is currently lower, but at the same time, it keeps your risk under control.
+With rebalanced DCA, you diversify in a systematic way. You pick two or more assets and a target allocation; the bot buys a bit more of whatever is currently below its target, and at the same time, it keeps your risk under control.
 
 ### Examples:
 
@@ -20,11 +20,13 @@ With rebalanced DCA, you diversify in a systematic way. The bot buys a bit more 
 
 **BTC-PAXG** — Cross-asset diversification. Pax Gold is a unique stablecoin that is not correlated with crypto but still offers attractive upside.
 
+Pairs are the classic use, but nothing stops at two: a portfolio bot rebalances a whole basket the same way, buying whatever is furthest below its target.
+
 ## Market Cap Weighting
 
 Most of the options are the same as for the basic [DCA bot](/academy/dca-bot), but with rebalancing comes one that is new: **Market Cap adjusted** allocation.
 
-Instead of setting allocation manually, you can weight it based on market caps.
+Instead of setting the allocations manually, you can weight them based on market caps.
 
 This allows you to stay neutral and **let the market pick the winner**.
 

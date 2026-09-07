@@ -11,7 +11,7 @@ pickers:
     options:
       - id: nasdaq-100
         label: Nasdaq-100
-        short: Nasdaq
+        short: ND
         from: "1996-12"
         default: true
       - id: sp-500

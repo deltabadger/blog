@@ -7,13 +7,13 @@ published: true
 
 As the app grows more and more capable, I want to go back to where it all started—Bitcoin. This may be one of the last times I write about it at length, a "closure" of sorts, but not for the reason you might think.
 
----
+*
 
 In January 2020, when we launched, buying Bitcoin still meant, among many other things, the promise of 10-20x growth. That's what got people's attention and let them appreciate its other benefits. Is that era over? In many ways, yes. The hype is gone—not because Bitcoin is over, but because it won. It became part of mainstream finance, embraced by institutions and countries. It became kind of "boring."
 
 Here is my topic for today:
 
-**The last 20x run is ahead of us.** Yes, you read that right: the last one.
+The last 20x run is ahead of us. Yes, you read that right: the last one.
 
 As I write this, the price sits above $80k. A 20x from here means roughly $1.6M per coin and a market cap of over $30T—about the size of gold today. Is it realistic for Bitcoin to match gold? Absolutely. Most experts in the space agree that crossing $1M is inevitable. As we approach the era of deep space exploration, asteroid mining, and superintelligence, Bitcoin is still the only currency ready for it.
 
@@ -25,7 +25,7 @@ So there you have it: the last 20x. The last run.
 
 When? My bet is within 10 years, with the devaluation of the dollar as a big part of it. While we're heading into a post-economic future where many 20th-century concepts become obsolete, I don't believe having your own capital will be one of them. Growing a diversified portfolio will still give you more freedom and choice, having Bitcoin in it is still a great idea, and Deltabadger is still here—ready to help one more time.
 
----
+*
 
 At the beginning of this year, the app went open-source. Then the hard work started. Almost everything I planned for it is here: portfolio rebalancing, direct indexing, portfolio tracking, stocks, an API, an MCP server, the Umbrel app—and any feature you ask for now lands in the next release. On our Discord, you can follow the updates daily, and there are a lot of them.
 

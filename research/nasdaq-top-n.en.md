@@ -147,13 +147,13 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::picker{index}
 
+:::picker{w}
+
 :::picker{n}
 
 :::picker{mode}
 
 :::picker{sell}
-
-:::picker{tax}
 
 :::when{mode=price}
 
@@ -161,11 +161,11 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::
 
-:::picker{w}
-
-:::picker{period}
+:::picker{tax}
 
 :::picker{benchmark}
+
+:::picker{period}
 
 :::chart{indexes="$index:$mode.idx:$n:$w::$sell:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex:$mode" names="$index.short-$n,$benchmark.short" start="$period.start" end="$period.end" opt.compact="true"}
 

@@ -8,6 +8,7 @@ published: false
 pickers:
   index:
     type: switch
+    prompt: Index
     options:
       - id: nasdaq-100
         label: Nasdaq-100
@@ -21,22 +22,51 @@ pickers:
   n:
     type: slider
     min: 1
-    max: 20
+    max: 30
     step: 1
     default: 5
     prompt: Index size
   mode:
     type: switch
+    prompt: Strategy
     options:
-      - id: dca
-        label: DCA
-        default: true
       - id: rdca
         label: RDCA
+        idx: rdca
+        default: true
       - id: price
         label: Lump sum
+        idx: lump
+  threshold:
+    type: slider
+    min: 1
+    max: 20
+    step: 1
+    default: 5
+    prompt: Rebalancing threshold (%)
+  sell:
+    type: switch
+    prompt: Sell dropouts
+    options:
+      - id: instant
+        label: At once
+        default: true
+      - id: month
+        label: Monthly
+      - id: year
+        label: Yearly
+  tax:
+    type: switch
+    prompt: Taxes
+    options:
+      - id: none
+        label: None
+        default: true
+      - id: us
+        label: US
   w:
     type: switch
+    prompt: Allocation
     options:
       - id: mcap
         label: Mcap
@@ -44,25 +74,20 @@ pickers:
       - id: equal
         label: Equal
   benchmark:
-    type: dropdown
+    type: switch
     prompt: Benchmark
     options:
       - id: spy
-        label: SPY — S&P 500 ETF
+        label: SPY
         short: SPY
         sym: SPY
         ex: US
       - id: qqq
-        label: QQQ — Nasdaq-100 ETF
+        label: QQQ
         short: QQQ
         sym: QQQ
         ex: US
         default: true
-      - id: ndx
-        label: NDX — Nasdaq-100 index
-        short: NDX
-        sym: NDX
-        ex: INDX
   period:
     type: daterange
     min: "1996-12"
@@ -122,39 +147,51 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::picker{index}
 
+:::picker{n}
+
 :::picker{mode}
 
-:::picker{w}
+:::picker{sell}
 
-:::picker{n}
+:::picker{tax}
+
+:::when{mode=price}
+
+:::picker{threshold}
+
+:::
+
+:::picker{w}
 
 :::picker{period}
 
 :::picker{benchmark}
 
-:::chart{indexes="$index:$mode:$n:$w" symbols="$benchmark.sym:$benchmark.ex:$mode" names="$index.short-$n,$benchmark.short" start="$period.start" end="$period.end" opt.compact="true"}
+:::chart{indexes="$index:$mode.idx:$n:$w::$sell:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex:$mode" names="$index.short-$n,$benchmark.short" start="$period.start" end="$period.end" opt.compact="true"}
 
 <!-- Picker floor is 1996-12. Total-return reconstruction (the DCA math, include_dividends) only reaches 1995-12 for sp-500 mcap; nasdaq-100 (both weightings) and sp-500 equal floor at 1999-09-30, so their pre-2000 cells dash. Split-adjusted price-only data reaches 1996 across the board, but the returns here use total return. -->
 
 :::picker{tview}
 
-:::chart{table="$index:$tview:$n:$w:$mode" symbols="$benchmark.sym:$benchmark.ex"}
+:::chart{table="$index:$tview:$n:$w:$mode.idx:$sell:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex" start="$period.start" end="$period.end"}
 
 ## Every starting year at a glance
 
-Each row is a year you could have started; each column, how long you kept going. Green cells made money — or beat the benchmark, in the second view; red cells didn't. A dash means there's no complete window to show — either it hasn't finished yet, or the index or benchmark has no history that far back. The table follows every control above except the period — index, strategy, weighting, size and benchmark — and always covers the full history, using the same simulations as the chart.
+Each row is a year you could have started; each column, how long you kept going. Green cells made money — or beat the benchmark, in the second view; red cells didn't. A dash means there's no complete window to show — either it hasn't finished yet, or the index or benchmark has no history that far back. The table follows every control above — index, strategy, sell schedule, taxes, weighting, size, benchmark and period — using the same simulations as the chart: rows start within the period, and only windows that end inside it are shown.
 
-**DCA** — a fixed amount buys the current index basket every week, split by the selected weighting. Nothing is ever sold: a company that falls out of the top N keeps its shares and just stops receiving new money.
+**RDCA** — rebalanced DCA. A fixed amount goes in every week, steered toward whichever companies sit furthest below their index weight.
 
-**RDCA** — rebalanced DCA. The same weekly schedule, but each contribution is steered toward whichever companies sit furthest below their index weight, and when a company falls out of the top N its shares are sold and the proceeds move into its replacement.
+**Lump sum** — the whole amount goes in on day one, split by index weight. From then on it is rebalanced only when it drifts: once any company sits more than the **rebalancing threshold** away from its index weight (5 percentage points by default), the most overweight company is sold back to its weight and the proceeds buy the most underweight ones, until every company is back inside the band — the same way a Deltabadger index bot rebalances.
 
-**Custom index** — each quarter, the selected index's companies are ranked by market value and the biggest N form the custom index. The lump-sum view buys this index on day one and fully rebalances it every quarter: leavers are sold and the portfolio is reset to the new weights.
+In both strategies, a company that falls out of the top N is sold and the proceeds move into its replacement. That sale is separate from the threshold, so a small leaver is sold even though it never drifts far. **Sell dropouts** sets when it happens: at once on the day the index changes (the default), or held until the next month or year boundary counted from your start date. **Taxes** charges US federal tax on every sale as it happens — 24% on gains held a year or less, 15% on longer ones, with losses carried forward — and on the dividends received along the way, so less money is reinvested. Nothing is charged for selling at the end of the period: the result is what you hold, not what you would keep after cashing out. The benchmark is shown before tax.
+
+**Custom index** — each quarter, the selected index's companies are ranked by market value and the biggest N form the custom index, weighted by the selected allocation.
 
 **Mcap / Equal** — how money is split inside the basket. Mcap weights by market value, so bigger companies get more; Equal gives every company in the top N the same share.
 
-**Benchmark** — what the custom index is measured against, chosen independently of the index it is built from. **QQQ** and **SPY** are the ETFs you could actually buy for the full Nasdaq-100 and S&P 500; **NDX** is the Nasdaq-100 index itself. The benchmark follows the same schedule as the mode you pick.
+**Benchmark** — what the custom index is measured against, chosen independently of the index it is built from. **QQQ** and **SPY** are the ETFs you could actually buy for the full Nasdaq-100 and S&P 500. The benchmark follows the same schedule as the mode you pick.
 
-All prices are split-adjusted with dividends reinvested; fees and taxes are ignored. The one exception is NDX, a price index that excludes dividends — against the total-return strategies it is a slightly conservative bar.
+All prices are split-adjusted with dividends reinvested; fees are ignored, and so are taxes unless you turn them on. The one exception is NDX, the Nasdaq-100 index offered as a benchmark further down: it is a price index that excludes dividends, so against the total-return strategies it is a slightly conservative bar.
 
 ## So how many is enough?
 

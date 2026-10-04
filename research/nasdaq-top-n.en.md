@@ -123,25 +123,21 @@ pickers:
       - id: both
         label: Both
   mbench:
-    type: dropdown
+    type: switch
     prompt: Benchmark
     options:
       - id: spy
-        label: SPY — S&P 500 ETF
+        label: SPY
         short: SPY
         sym: SPY
         ex: US
       - id: qqq
-        label: QQQ — Nasdaq-100 ETF
+        label: QQQ
         short: QQQ
         sym: QQQ
         ex: US
+        from: "1999-04"
         default: true
-      - id: ndx
-        label: NDX — Nasdaq-100 index
-        short: NDX
-        sym: NDX
-        ex: INDX
 ---
 
 What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 500 — how many would have been enough?
@@ -196,11 +192,11 @@ In RDCA and in an equal-weight lump sum, a company that falls out of the top N i
 
 **Benchmark** — what the custom index is measured against, chosen independently of the index it is built from. **QQQ** and **SPY** are the ETFs you could actually buy for the full Nasdaq-100 and S&P 500. The benchmark follows the same schedule as the mode you pick.
 
-All prices are split-adjusted with dividends reinvested; fees are ignored, and so are taxes unless you turn them on. The one exception is NDX, the Nasdaq-100 index offered as a benchmark further down: it is a price index that excludes dividends, so against the total-return strategies it is a slightly conservative bar.
+All prices are split-adjusted with dividends reinvested; fees are ignored, and so are taxes unless you turn them on.
 
 ## So how many is enough?
 
-Both views above answer for one index size at a time. This one puts the size itself on the x-axis: every N from 1 to 20, scored across every starting year and all five window lengths at once.
+The charts above show one index size at a time. This one shows all of them side by side, from 1 to 30 companies, so you can see which size did best. Each point sums up every starting year and every holding period from the table above.
 
 :::picker{mw}
 
@@ -210,12 +206,12 @@ Both views above answer for one index size at a time. This one puts the size its
 
 :::chart{ncurve="$index:$mw:$mmode" symbols="$mbench.sym:$mbench.ex" n="$n"}
 
-The top panel is the median **annualized** edge over the benchmark. Annualizing matters here: a +638 pp gap over twenty years and a +122 pp gap over three sound wildly different, but they are +4.8 %/yr and +20.7 %/yr — the short window is the bigger edge. Ranking sizes on raw percentage points would just rank the longest windows first.
+**Top chart: how much it beat the benchmark by, per year.** Each point is the typical result for that size — half of the periods did better, half did worse. It's shown per year so that short and long periods can be compared fairly: beating SPY by 122% over 3 years is actually a bigger lead (+20.7% a year) than beating it by 638% over 20 years (+4.8% a year).
 
-The bottom panel is the share of windows that finished ahead. Read the two together: the best size is where a real edge shows up often enough to be worth holding through the bad years.
+**Bottom chart: how often it beat the benchmark.** The share of periods that ended ahead. Read the two together: the best size is one that wins by a decent margin *and* wins often.
 
-On **RDCA** — where you actually sell down to N names — the curve has a floor as well as a ceiling. One or two companies is not a strategy, it is a bet on a company: the edge is wild when it lands, and the share of winning windows sits on a coin flip. Past roughly a dozen names the edge decays toward zero, which it must: each name you add moves your portfolio closer to the index you are measuring against, so the gap has nowhere to go but down. The interesting region is the low-to-mid single digits.
+With **RDCA** — where you sell anything that drops out, so you always hold exactly N companies — there's a sweet spot. One or two companies is a bet on a single stock: when it pays off it pays off big, but it wins only about half the time. Add more and the lead shrinks, because the more companies you hold, the closer you get to simply owning the whole index. The best results cluster around 4 or 5 companies.
 
-Switch to **DCA** and the floor disappears — the edge just falls away as N grows, smallest sizes on top. That isn't a contradiction, it's what holding dropouts does. A top-1 DCA investor buys whichever company is largest each week and never sells, so after thirty years they own every company that was ever number one. The size in that mode is the size of this week's purchase, not the size of the portfolio, which quietly diversifies itself. Concentration is only concentration if you sell to maintain it.
+With **DCA** there is no sweet spot — the fewer companies, the better, all the way down to one. That's because DCA never sells. If you buy whichever company is biggest each week, after thirty years you own every company that was ever number one. The size only says how many companies you buy *this week*; over time the portfolio spreads out on its own. Holding few companies only stays that way if you sell to keep it that way.
 
-Two cautions. The windows overlap heavily — a twenty-year figure drawn from thirty years of history is close to a single observation, so read the share of windows as a description of the past, not as odds on the future. And the benchmark matters: measured against SPY, a Nasdaq-derived index mostly shows Nasdaq beating the S&P, not concentration beating breadth. Against QQQ, concentration is the only thing still varying.
+Two things to keep in mind. The periods overlap a lot — a 20-year period out of 30 years of history is almost a single data point — so treat these numbers as what happened, not as odds for the future. And pick the right benchmark: against SPY, a Nasdaq-based portfolio mostly shows that the Nasdaq beat the S&P 500, not that fewer companies beat more. Against QQQ, the only difference left is how many companies you hold.

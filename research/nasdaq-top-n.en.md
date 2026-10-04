@@ -157,7 +157,11 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::when{mode=price}
 
+:::when{w=equal}
+
 :::picker{threshold}
+
+:::
 
 :::
 
@@ -181,9 +185,9 @@ Each row is a year you could have started; each column, how long you kept going.
 
 **RDCA** — rebalanced DCA. A fixed amount goes in every week, steered toward whichever companies sit furthest below their index weight.
 
-**Lump sum** — the whole amount goes in on day one, split by index weight. From then on it is rebalanced only when it drifts: once any company sits more than the **rebalancing threshold** away from its index weight (5 percentage points by default), the most overweight company is sold back to its weight and the proceeds buy the most underweight ones, until every company is back inside the band — the same way a Deltabadger index bot rebalances.
+**Lump sum** — the whole amount goes in on day one, split by index weight. With **Mcap** allocation it then behaves like an index fund: its holdings rise and fall with the index, so between index changes there is nothing to correct and nothing is traded. Whenever the top N changes, the leavers are sold and every company is rebalanced to its index weight on that day — so the sell schedule below does not apply to it. With **Equal** allocation the weights do drift, and the portfolio is rebalanced only when it drifts far enough: once any company sits more than the **rebalancing threshold** away from its weight (5 percentage points by default), the most overweight company is sold back to its weight and the proceeds buy the most underweight ones, until every company is back inside the band — the same way a Deltabadger index bot rebalances.
 
-In both strategies, a company that falls out of the top N is sold and the proceeds move into its replacement. That sale is separate from the threshold, so a small leaver is sold even though it never drifts far. **Sell dropouts** sets when it happens: at once on the day the index changes (the default), or held until the next month or year boundary counted from your start date. **Taxes** charges US federal tax on every sale as it happens — 24% on gains held a year or less, 15% on longer ones, with losses carried forward — and on the dividends received along the way, so less money is reinvested. Nothing is charged for selling at the end of the period: the result is what you hold, not what you would keep after cashing out. The benchmark is shown before tax.
+In RDCA and in an equal-weight lump sum, a company that falls out of the top N is sold and the proceeds move into its replacement. That sale is separate from the threshold, so a small leaver is sold even though it never drifts far. **Sell dropouts** sets when it happens: at once on the day the index changes (the default), or held until the next month or year boundary counted from your start date. **Taxes** charges US federal tax on every sale as it happens — 24% on gains held a year or less, 15% on longer ones, with losses carried forward — and on the dividends received along the way, so less money is reinvested. Nothing is charged for selling at the end of the period: the result is what you hold, not what you would keep after cashing out. The benchmark is shown before tax.
 
 **Custom index** — each quarter, the selected index's companies are ranked by market value and the biggest N form the custom index, weighted by the selected allocation.
 

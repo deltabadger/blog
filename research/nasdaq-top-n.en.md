@@ -87,12 +87,13 @@ pickers:
         short: QQQ
         sym: QQQ
         ex: US
+        from: "1999-04"
         default: true
   period:
     type: daterange
     min: "1996-12"
     max: now
-    scope: index
+    scope: [index, benchmark]
   tview:
     type: switch
     options:

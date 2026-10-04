@@ -24,7 +24,7 @@ pickers:
     min: 1
     max: 30
     step: 1
-    default: 5
+    default: 4
     prompt: Index size
   mode:
     type: switch
@@ -43,18 +43,8 @@ pickers:
     max: 20
     step: 1
     default: 5
-    prompt: Rebalancing threshold (%)
-  sell:
-    type: switch
-    prompt: Sell dropouts
-    options:
-      - id: instant
-        label: At once
-        default: true
-      - id: month
-        label: Monthly
-      - id: year
-        label: Yearly
+    prompt: Rebalancing threshold
+    suffix: "%"
   tax:
     type: switch
     prompt: Taxes
@@ -70,9 +60,9 @@ pickers:
     options:
       - id: mcap
         label: Mcap
-        default: true
       - id: equal
         label: Equal
+        default: true
   benchmark:
     type: switch
     prompt: Benchmark
@@ -82,13 +72,13 @@ pickers:
         short: SPY
         sym: SPY
         ex: US
+        default: true
       - id: qqq
         label: QQQ
         short: QQQ
         sym: QQQ
         ex: US
         from: "1999-04"
-        default: true
   period:
     type: daterange
     min: "1996-12"
@@ -118,8 +108,8 @@ pickers:
       - id: rdca
         label: RDCA
         default: true
-      - id: dca
-        label: DCA
+      - id: lump
+        label: Lump sum
       - id: both
         label: Both
   mbench:
@@ -150,8 +140,6 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::picker{mode}
 
-:::picker{sell}
-
 :::when{mode=price}
 
 :::when{w=equal}
@@ -168,23 +156,23 @@ What if you had invested in just the biggest companies in the Nasdaq-100 or S&P 
 
 :::picker{period}
 
-:::chart{indexes="$index:$mode.idx:$n:$w::$sell:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex:$mode" names="$index.short-$n,$benchmark.short" start="$period.start" end="$period.end" opt.compact="true"}
+:::chart{indexes="$index:$mode.idx:$n:$w::instant:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex:$mode" names="$index.short-$n,$benchmark.short" start="$period.start" end="$period.end" opt.compact="true" opt.showYAxis="false" opt.showYLabels="false"}
 
 <!-- Picker floor is 1996-12. Total-return reconstruction (the DCA math, include_dividends) only reaches 1995-12 for sp-500 mcap; nasdaq-100 (both weightings) and sp-500 equal floor at 1999-09-30, so their pre-2000 cells dash. Split-adjusted price-only data reaches 1996 across the board, but the returns here use total return. -->
 
 :::picker{tview}
 
-:::chart{table="$index:$tview:$n:$w:$mode.idx:$sell:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex" start="$period.start" end="$period.end"}
+:::chart{table="$index:$tview:$n:$w:$mode.idx:instant:$tax:$threshold" symbols="$benchmark.sym:$benchmark.ex" start="$period.start" end="$period.end"}
 
 ## Every starting year at a glance
 
-Each row is a year you could have started; each column, how long you kept going. Green cells made money — or beat the benchmark, in the second view; red cells didn't. A dash means there's no complete window to show — either it hasn't finished yet, or the index or benchmark has no history that far back. The table follows every control above — index, strategy, sell schedule, taxes, weighting, size, benchmark and period — using the same simulations as the chart: rows start within the period, and only windows that end inside it are shown.
+Each row is a year you could have started; each column, how long you kept going. Green cells made money — or beat the benchmark, in the second view; red cells didn't. A dash means there's no complete window to show — either it hasn't finished yet, or the index or benchmark has no history that far back. The table follows every control above — index, strategy, taxes, weighting, size, benchmark and period — using the same simulations as the chart: rows start within the period, and only windows that end inside it are shown.
 
 **RDCA** — rebalanced DCA. A fixed amount goes in every week, steered toward whichever companies sit furthest below their index weight.
 
-**Lump sum** — the whole amount goes in on day one, split by index weight. With **Mcap** allocation it then behaves like an index fund: its holdings rise and fall with the index, so between index changes there is nothing to correct and nothing is traded. Whenever the top N changes, the leavers are sold and every company is rebalanced to its index weight on that day — so the sell schedule below does not apply to it. With **Equal** allocation the weights do drift, and the portfolio is rebalanced only when it drifts far enough: once any company sits more than the **rebalancing threshold** away from its weight (5 percentage points by default), the most overweight company is sold back to its weight and the proceeds buy the most underweight ones, until every company is back inside the band — the same way a Deltabadger index bot rebalances.
+**Lump sum** — the whole amount goes in on day one, split by index weight. With **Mcap** allocation it then behaves like an index fund: its holdings rise and fall with the index, so between index changes there is nothing to correct and nothing is traded. Whenever the top N changes, the leavers are sold and every company is rebalanced to its index weight on that day. With **Equal** allocation the weights do drift, and the portfolio is rebalanced only when it drifts far enough: once any company sits more than the **rebalancing threshold** away from its weight (5 percentage points by default), the most overweight company is sold back to its weight and the proceeds buy the most underweight ones, until every company is back inside the band — the same way a Deltabadger index bot rebalances.
 
-In RDCA and in an equal-weight lump sum, a company that falls out of the top N is sold and the proceeds move into its replacement. That sale is separate from the threshold, so a small leaver is sold even though it never drifts far. **Sell dropouts** sets when it happens: at once on the day the index changes (the default), or held until the next month or year boundary counted from your start date. **Taxes** charges US federal tax on every sale as it happens — 24% on gains held a year or less, 15% on longer ones, with losses carried forward — and on the dividends received along the way, so less money is reinvested. Nothing is charged for selling at the end of the period: the result is what you hold, not what you would keep after cashing out. The benchmark is shown before tax.
+In RDCA and in an equal-weight lump sum, a company that falls out of the top N is sold on the day the index changes, even a small one that never drifted far. The money goes to whichever companies sit furthest below their weight — usually its replacement. In an equal-weight lump sum this always comes first, before the threshold is checked, so the newcomer is paid for by the company that left rather than by trimming the ones you keep: selling those would only realise gains you didn't need to. **Taxes** charges US federal tax on every sale as it happens — 24% on gains held a year or less, 15% on longer ones, with losses carried forward — and on the dividends received along the way, so less money is reinvested. Nothing is charged for selling at the end of the period: the result is what you hold, not what you would keep after cashing out. The benchmark is shown before tax.
 
 **Custom index** — each quarter, the selected index's companies are ranked by market value and the biggest N form the custom index, weighted by the selected allocation.
 
@@ -212,6 +200,6 @@ The charts above show one index size at a time. This one shows all of them side 
 
 With **RDCA** — where you sell anything that drops out, so you always hold exactly N companies — there's a sweet spot. One or two companies is a bet on a single stock: when it pays off it pays off big, but it wins only about half the time. Add more and the lead shrinks, because the more companies you hold, the closer you get to simply owning the whole index. The best results cluster around 4 or 5 companies.
 
-With **DCA** there is no sweet spot — the fewer companies, the better, all the way down to one. That's because DCA never sells. If you buy whichever company is biggest each week, after thirty years you own every company that was ever number one. The size only says how many companies you buy *this week*; over time the portfolio spreads out on its own. Holding few companies only stays that way if you sell to keep it that way.
+With a **lump sum** the sweet spot sits in the same place: 3 to 5 companies, with two the worst size. It fades faster on the way out, though: from about ten companies it trails RDCA, and with **Equal** allocation it falls behind QQQ altogether. On the S&P 500 the edge is thin for both strategies: only 3 to 5 companies come out ahead of SPY, by well under 1% a year.
 
 Two things to keep in mind. The periods overlap a lot — a 20-year period out of 30 years of history is almost a single data point — so treat these numbers as what happened, not as odds for the future. And pick the right benchmark: against SPY, a Nasdaq-based portfolio mostly shows that the Nasdaq beat the S&P 500, not that fewer companies beat more. Against QQQ, the only difference left is how many companies you hold.

@@ -3,8 +3,8 @@ title: Wie viele Aktien brauchen Sie wirklich?
 subtitle: Investieren in die N größten Unternehmen des Nasdaq oder S&P 500
 description: Interaktiver Backtest – ziehen Sie den Regler und sehen Sie, ob Konzentration die Diversifikation schlägt (oder nicht).
 thumbnail: research002
-date: 2026-07-21
-published: false
+date: 2026-10-06
+published: true
 pickers:
   index:
     type: switch

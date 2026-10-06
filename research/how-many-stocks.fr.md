@@ -3,8 +3,8 @@ title: De combien d'actions avez-vous réellement besoin ?
 subtitle: Investir dans les N premières entreprises du Nasdaq ou du S&P 500
 description: Backtest interactif — déplacez le curseur et voyez la concentration battre la diversification (ou pas).
 thumbnail: research002
-date: 2026-07-21
-published: false
+date: 2026-10-06
+published: true
 pickers:
   index:
     type: switch

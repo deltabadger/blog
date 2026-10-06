@@ -3,8 +3,8 @@ title: How Many Stocks Do You Actually Need?
 subtitle: Investing in the top-N Nasdaq or S&P 500 companies
 description: Interactive backtest — drag the slider and watch concentration beat diversification (or not).
 thumbnail: research002
-date: 2026-07-21
-published: false
+date: 2026-10-06
+published: true
 pickers:
   index:
     type: switch

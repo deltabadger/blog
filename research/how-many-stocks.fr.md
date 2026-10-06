@@ -142,7 +142,7 @@ pickers:
         default: true
 ---
 
-Cet outil interactif accompagne la série *The Myth of Index Investing* : [I](https://sovereignoptimist.com/p/the-myth-of-index-investing), [II](https://sovereignoptimist.com/p/the-myth-of-index-investing).
+Cet outil interactif accompagne la série *The Myth of Index Investing* : [I](https://sovereignoptimist.com/p/the-myth-of-index-investing), [II](https://sovereignoptimist.com/p/the-myth-of-index-investing-part).
 
 Il explore une question simple :
 
